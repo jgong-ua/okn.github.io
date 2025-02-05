@@ -7,11 +7,11 @@ permalink: /
 
 # RuralKG Dataset
 
-RuralKG is a hierarchical dataset generated from multiple federal sources (e.g., NSDUH, NIBRS, TEDS-A/D) and focuses on substance abuse, mental health, and justice in rural areas. It provides a complete data processing pipeline—from raw data extraction to the deployment of a retrieval-augmented generation (RAG) system—making it a robust resource for researchers, practitioners, and educators.
+RuralKG is a hierarchical data repository and knowledgebase generated from multiple federal sources (e.g., NSDUH, NIBRS, TEDS-A/D). It focuses on improving our understanding of risk environments (e.g., substance abuse, mental health, and social justice) in rural regions of the United States and strengthening rural resilience. It provides a complete data processing pipeline—from raw data extraction to the deployment of a retrieval-augmented generation (RAG) system—making it a robust resource for researchers, practitioners, and educators.
 
 ## Project Overview
 
-Instead of a single dataset, RuralKG is dedicated to providing reliable and reusable datasets for all the components of the RuralKG pipeline. Datasets from different layers represent different aspects and readiness of the knowledge representation.
+Instead of a single dataset, RuralKG is dedicated to providing reliable and reusable datasets and knowledge graphs for all the components of the RuralKG pipeline. Datasets from different layers represent different aspects of the readiness of the knowledge representation.
 
 1. **Extended CSV Generation:**  
    Raw data from federal codebooks (e.g., NSDUH) is processed into an extended CSV format, capturing rich, structured information. This approach utilizes the structure of the codebooks that the most vital variable section in the codebook is organized in a table-like pattern.
